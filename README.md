@@ -10,11 +10,21 @@ A running Kubernetes cluster.
 
 ## Installation
 
-Pull down the Repo to a machine that has access to your Kubernetes cluster.
+    ### Pull down the Repo to a machine that has access to your Kubernetes cluster.
+        git clone https://github.com/tkrausjr/tweet-analysis.git
+
+    ###  Export the required Environment Variables
+        export
+        export
+        export
+        export
+        export
+        export
 
 
 
-## Example
+
+## Example - Running locally with Docker-compose
 
 	### Calling the Library
 
@@ -30,13 +40,3 @@ Pull down the Repo to a machine that has access to your Kubernetes cluster.
 		apps = new_marathon.get_all_apps()
 
 
-	### Get Marathon App Details -
-		marathon_app = '/dev/nginx01'
-		app_details = aws_marathon.get_app_details(marathon_app)
-
-	### Scale Marathon App -
-		new_marathon.scale_app(marathon_app, instances)
-
-	### Add Marathon Application -
-		marathon_app_json_file = '/Users/tkraus/sandbox/marathon/12b-siege.json'
-		new_app = new_marathon.add_app(marathon_app_json_file)
