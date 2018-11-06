@@ -32,7 +32,7 @@ A running Kubernetes cluster.
 	$ vi docker-compose-single-broker.yml
 		Change - "KAFKA_ADVERTISED_HOST_NAME: xx.xx.xxx.xx  to the IP Address of your local workstation.
 	$ docker-compose -f docker-compose-single-broker.yml up -d
-	$ kraust: ~/gitHub/kafka-docker $ docker ps
+	$ docker ps
 CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                                                NAMES
 c1d4d3e00cc2        wurstmeister/zookeeper   "/bin/sh -c '/usr/..."   About an hour ago   Up About an hour    22/tcp,2888/tcp, 3888/tcp, 0.0.0.0:2181->2181/tcp   kafkadocker_zookeeper_1
 c7eb07462bd0        kafkadocker_kafka        "start-kafka.sh"         About an hour ago   Up About an hour    0.0.0.0:9092->9092/tcp                               kafkadocker_kafka_1
