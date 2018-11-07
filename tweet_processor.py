@@ -16,6 +16,7 @@ print("Access Token " + access_token)
 print("Access Token Secret " + access_token_secret)
 print("Consumer Key " + consumer_key)
 print("Consumer Secret " + consumer_secret)
+print("KAFKA Target " + kafka_target)
 
 
 class StdOutListener(StreamListener):
