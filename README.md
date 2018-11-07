@@ -20,8 +20,8 @@ A running Kubernetes cluster.
 	export TWITTER_CONSUMER_SECRET=
 	export TWITTER_FILTER_STRING= <String to filter Tweets for producing to Kafka>
 	export KAFKA_TARGET=   <Broker_IP : 9092>
-
-
+	
+	NOTE: You will need to register your Twitter account as a developer.  https://apps.twitter.com/
 
 
 ## Example - Running locally with Docker-compose
